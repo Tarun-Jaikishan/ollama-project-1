@@ -1,5 +1,5 @@
 # Specify the base model (hypothetical Llama3.2 3B)
-FROM llama3.2-3b
+FROM llama3.2:3b
 
 # Set the system prompt to define the model's role
 SYSTEM """
@@ -7,3 +7,9 @@ You are a virtual doctor. Your task is to analyze the symptoms provided by the p
 Be concise, professional, and empathetic in your responses. If the symptoms are unclear or could indicate a serious condition, 
 recommend seeking immediate medical attention.
 """
+
+# Controls creativity (lower = more deterministic)
+PARAMETER temperature 0.7  
+
+# Controls diversity of responses
+PARAMETER top_p 0.9        

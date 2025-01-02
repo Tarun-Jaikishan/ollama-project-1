@@ -1,0 +1,18 @@
+[
+  {
+    "symptoms": "fever, cough, sore throat",
+    "diagnosis": "This could be a common cold or flu. Rest, stay hydrated, and consider over-the-counter medication for symptom relief."
+  },
+  {
+    "symptoms": "chest pain, shortness of breath",
+    "diagnosis": "These symptoms could indicate a serious condition like a heart attack. Seek emergency medical attention immediately."
+  },
+  {
+    "symptoms": "headache, dizziness, blurred vision",
+    "diagnosis": "This might be a migraine or a sign of high blood pressure. Monitor your symptoms and consult a doctor if they persist."
+  },
+  {
+    "symptoms": "abdominal pain, nausea, vomiting",
+    "diagnosis": "This could be food poisoning or a stomach infection. Stay hydrated and avoid solid foods for a few hours. If symptoms worsen, see a doctor."
+  }
+]
